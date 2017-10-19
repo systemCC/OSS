@@ -16,4 +16,3 @@
 - - - -
 [Menu Item 3](item3.md)
 
-[gimmick:themechooser](Ö÷Ìâ)
