@@ -23,15 +23,15 @@
 
 ## 3 连接管理
 
-![设备接入](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%AE%BE%E5%A4%87%E6%8E%A5%E5%85%A5.png)
+![设备接入](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/%E8%AE%BE%E5%A4%87%E6%8E%A5%E5%85%A5.png)
 ### 3.1 企业应用管理
 * 运营商发展的企业客户，进入设备接入前需添加相应的企业和应用，用于企业应用管理和维护。
 * 默认显示“企业”标签，企业与应用管理可分别点击相应标签进行切换。
 * 路径：连接管理>企业应用管理。
 
-![企业应用管理](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86.png)
+![企业应用管理](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86.png)
 #### 3.1.1 创建企业
-![创建企业](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E5%88%9B%E5%BB%BA%E4%BC%81%E4%B8%9A.png)
+![创建企业](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/%E5%88%9B%E5%BB%BA%E4%BC%81%E4%B8%9A.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -45,7 +45,7 @@
 * 创建企业后，生成企业列表及其企业信息；
 * 运营商可查看所有企业列表，企业客户和设备厂商仅可查看权限范围内的企业和应用。
 
-![企业管理列表](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E5%88%97%E8%A1%A8.png)
+![企业管理列表](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E5%88%97%E8%A1%A8.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -60,7 +60,7 @@
 |删除|按钮|弹出层显示删除确认页面|||点击“删除”按钮，弹出层显示删除确认页面，详见3.1.3修改/删除企业|
 |表格属性|||||1.每页显示20条数据；2.翻页功能。|
 #### 3.1.3 修改/删除企业
-![修改企业](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BF%AE%E6%94%B9%E4%BC%81%E4%B8%9A.png)
+![修改企业](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/%E4%BF%AE%E6%94%B9%E4%BC%81%E4%B8%9A.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -69,7 +69,7 @@
 |修改|按钮|修改成功关闭修改企业弹出层|||1.任一字段报错均无法提交修改；2.点击修改按钮，成功修改后，数据库保存修改后企业信息，同时上方显示绿色横幅提示“修改成功！”|
 |取消|按钮|关闭修改企业弹出层|||点击取消按钮，关闭弹出层，无数据修改操作。|
 
-![删除企业](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E5%88%A0%E9%99%A4%E4%BC%81%E4%B8%9A.png)
+![删除企业](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/%E5%88%A0%E9%99%A4%E4%BC%81%E4%B8%9A.png)
 
 * 点击“删除”按钮，显示如上图，进行删除确认操作，点击“确定”即可删除企业；点击“取消”则不进行删除操作。
 * 当需删除的企业存在下级应用的时，无法删除企业，上方红色横幅提示“该企业存在下级应用，无法删除！”；点击右侧“×”可关闭提示横幅。
@@ -77,7 +77,7 @@
 #### 3.1.4 创建应用
 * 应用属于企业，一个企业可创建多个应用。
 
-![创建应用](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E5%88%9B%E5%BB%BA%E5%BA%94%E7%94%A8.png)
+![创建应用](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/%E5%88%9B%E5%BB%BA%E5%BA%94%E7%94%A8.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -145,7 +145,7 @@
 * 成功创建应用后，生成应用管理列表。
 * 查看应用整体状况。
 
-![应用管理列表](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86%E5%88%97%E8%A1%A8.png)
+![应用管理列表](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86%E5%88%97%E8%A1%A8.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -157,13 +157,13 @@
 #### 3.1.6 修改/删除应用
 * 用于修改、删除已创建的应用。
 
-![修改应用](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BF%AE%E6%94%B9%E5%BA%94%E7%94%A8.png)
+![修改应用](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/%E4%BF%AE%E6%94%B9%E5%BA%94%E7%94%A8.png)
 
 　1、只能修改应用名称、设备最大连接数、资源连接方式，其他不可修改。
 　2、点击“修改”，输入内容符合规范情况下修改成功，关闭修改应用弹出层（同时上方显示绿色提示横幅“修改成功”），数据库记录修改后的信息；点击“取消”，不执行修改操作，同时关闭修改应用弹出层。
 　3、1.任一字段报错均无法提交修改；
 
-![删除应用](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E5%88%A0%E9%99%A4%E5%BA%94%E7%94%A8.png)
+![删除应用](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86/%E5%88%A0%E9%99%A4%E5%BA%94%E7%94%A8.png)
 
 1、点击“删除”按钮，显示如上图，进行删除确认操作，点击“确定”即可删除应用；点击“取消”则不进行删除操作。
 2、当需删除的应用存在终端设备时，无法删除应用，上方红色横幅提示“该应用包含终端设备，无法删除！”；点击右侧“×”可关闭提示横幅。
@@ -174,11 +174,11 @@
 * 用于菜单创建、修改和删除。
 * 最多三级目录，一级目录为平台顶端主菜单，二三级目录为平台左侧纵向菜单。
 
-![菜单管理](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86.png)
+![菜单管理](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86.png)
 #### 5.1.1 添加一级菜单
 * 一级菜单包含菜单URL，则无法添加子菜单。
 
-![添加一级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E6%B7%BB%E5%8A%A0%E4%B8%80%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
+![添加一级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E6%B7%BB%E5%8A%A0%E4%B8%80%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -193,7 +193,7 @@
 * 添加一级菜单后，点击对应一级菜单所在行的“+”用来添加其二级菜单。
 * 二级菜单包含菜单URL，则无法添加子菜单。
 
-![添加二级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E6%B7%BB%E5%8A%A0%E4%BA%8C%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
+![添加二级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E6%B7%BB%E5%8A%A0%E4%BA%8C%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -208,7 +208,7 @@
 #### 5.1.3 创建三级菜单
 * 三级菜单下无法再添加子菜单。
 
-![创建三级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E6%B7%BB%E5%8A%A0%E4%B8%89%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
+![创建三级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E6%B7%BB%E5%8A%A0%E4%B8%89%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -223,22 +223,22 @@
 
 #### 5.1.4 修改菜单
 * 菜单修改成功，上方绿色横幅提示“修改成功”；
-* 点击一、二、三级菜单所在行的修改菜单图标 ![修改菜单图标](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BF%AE%E6%94%B9%E8%8F%9C%E5%8D%95%E5%9B%BE%E6%A0%87.png) ，弹出层显示修改菜单页面，如下图：
+* 点击一、二、三级菜单所在行的修改菜单图标 ![修改菜单图标](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E4%BF%AE%E6%94%B9%E8%8F%9C%E5%8D%95%E5%9B%BE%E6%A0%87.png) ，弹出层显示修改菜单页面，如下图：
 
-![修改一级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BF%AE%E6%94%B9%E4%B8%80%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
+![修改一级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E4%BF%AE%E6%94%B9%E4%B8%80%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
 
 　  1、可修改菜单名称和菜单URL，校验规则同添加一级菜单；
   　2、点击“修改”成功修改菜单信息，并关闭修改一级菜单弹出层；点击“取消”不执行修改操作，关闭修改一级菜单弹出层。
  　 3、任一字段报错均无法提交修改。
 
-![修改二级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BF%AE%E6%94%B9%E4%BA%8C%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
+![修改二级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E4%BF%AE%E6%94%B9%E4%BA%8C%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
 
 　　1、可修改上级菜单，但上级菜单（也就是一级菜单）包含URL的情况下不能被选择；
 　　2、可修改菜单名称和菜单URL，校验规则同添加二级菜单；
 　　3、任一字段报错均无法提交修改；点击“修改”成功修改菜单信息，并关闭修改子菜单弹出层；点击“取消”不执行修改操作，关闭修改子菜单弹出层。
 　　
 
-![修改三级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E4%BF%AE%E6%94%B9%E4%B8%89%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
+![修改三级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E4%BF%AE%E6%94%B9%E4%B8%89%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
 
 　　1、可修改上级一二菜单，但上级菜单（也就是一级、二级菜单）包含URL的情况下不能被选择；二级菜单可以为空；
 　　2、可修改菜单名称和菜单URL，校验规则同添加二级菜单；
@@ -247,39 +247,39 @@
 #### 5.1.5 菜单删除
 * 菜单包含子级菜单时不可删除；
 * 删除菜单，后面的菜单序号顺序-1，如删除序号为12的二级菜单，则序号为13的二级菜单序号变为12；
-* 点击菜单所在行的删除图标 ![删除图标](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E5%88%A0%E9%99%A4%E8%8F%9C%E5%8D%95%E5%9B%BE%E6%A0%87.png) ，弹出层进行删除确认，点击弹出层“确认”按钮即可删除菜单；点击“取消”则不执行操作，关闭删除确认弹出层。
+* 点击菜单所在行的删除图标 ![删除图标](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E5%88%A0%E9%99%A4%E8%8F%9C%E5%8D%95%E5%9B%BE%E6%A0%87.png) ，弹出层进行删除确认，点击弹出层“确认”按钮即可删除菜单；点击“取消”则不执行操作，关闭删除确认弹出层。
 
-![删除菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E5%88%A0%E9%99%A4%E8%8F%9C%E5%8D%95.png)
+![删除菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E5%88%A0%E9%99%A4%E8%8F%9C%E5%8D%95.png)
 
 #### 5.1.6 菜单查看
-* 点击查看图标 ![查看菜单图标](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E6%9F%A5%E7%9C%8B%E8%8F%9C%E5%8D%95%E5%9B%BE%E6%A0%87.png) ，弹出层显示菜单信息，点击“取消”关闭查看弹出层。
+* 点击查看图标 ![查看菜单图标](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E6%9F%A5%E7%9C%8B%E8%8F%9C%E5%8D%95%E5%9B%BE%E6%A0%87.png) ，弹出层显示菜单信息，点击“取消”关闭查看弹出层。
 
-![查看一级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E6%9F%A5%E7%9C%8B%E4%B8%80%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
+![查看一级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E6%9F%A5%E7%9C%8B%E4%B8%80%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
 
-![查看二级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E6%9F%A5%E7%9C%8B%E4%BA%8C%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
+![查看二级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E6%9F%A5%E7%9C%8B%E4%BA%8C%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
 
-![查看三级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E6%9F%A5%E7%9C%8B%E4%B8%89%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
+![查看三级菜单](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E6%9F%A5%E7%9C%8B%E4%B8%89%E7%BA%A7%E8%8F%9C%E5%8D%95.png)
 
 #### 5.1.7 菜单管理列表
 * 添加的所有菜单以树形结构显示；
 * 添加菜单后，不会立即显示在平台的菜单栏中，而需点击右上角的“更新”按钮统一实现菜单信息的修改；
 * 同级菜单间可在列表中鼠标拖动，改变其同级间的排序，同时序号也相应的变化。
 
-![菜单管理列表](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86%E5%88%97%E8%A1%A8.png)
+![菜单管理列表](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86/%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86%E5%88%97%E8%A1%A8.png)
 
 ### 5.2 角色管理
 * 为每个账号赋予不同角色（职责）；
 * 每个角色的菜单权限和操作权限不同。
 * 路径：系统管理>角色管理
 
-![角色管理]()
+![角色管理](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%A7%92%E8%89%B2%E7%AE%A1%E7%90%86/%E8%A7%92%E8%89%B2%E7%AE%A1%E7%90%86.png)
 
 #### 5.2.1 新增角色
 * 点击“新增角色”按钮，页面跳转至下图：
 * 路径：系统管理>角色管理>新增角色
 * 每个菜单中是否具备查看、编辑以及删除权限，视功能本身决定，查看权限为最基本权限，必存在；如均具备则显示三个权限及其开关；或具备部分权限，则仅显示具备的权限开关。
 
-![新增角色]()
+![新增角色](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%A7%92%E8%89%B2%E7%AE%A1%E7%90%86/%E6%96%B0%E5%A2%9E%E8%A7%92%E8%89%B2.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -296,18 +296,18 @@
 * 可修改角色名称、菜单权限和操作权限，校验规则同<5.2.1新增角色>；点击“修改”按钮，修改成功后页面返回上一页<角色管理>列表；点击“取消”；
 * 路径：系统管理>角色管理>修改角色；
 
-![修改角色]()
+![修改角色](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%A7%92%E8%89%B2%E7%AE%A1%E7%90%86/%E4%BF%AE%E6%94%B9%E8%A7%92%E8%89%B2.png)
 
 #### 5.2.3 删除角色
 * 点击角色管理列表中角色所在行的“删除”按钮，弹出层“确认删除”页面，点击“确认”即可删除角色，点击“取消”按钮则关闭弹出层并不执行删除操作，如下图：
 * 如该角色已被账号使用，则不能删除，上方红色横幅提示“该角色已被使用，不能删除！”。
 
-![删除角色]()
+![删除角色](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%A7%92%E8%89%B2%E7%AE%A1%E7%90%86/%E5%88%A0%E9%99%A4%E8%A7%92%E8%89%B2.png)
 
 #### 5.2.4 角色管理列表
 * 路径：系统管理>角色管理
 
-![角色管理列表]()
+![角色管理列表](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%A7%92%E8%89%B2%E7%AE%A1%E7%90%86/%E8%A7%92%E8%89%B2%E7%AE%A1%E7%90%86%E5%88%97%E8%A1%A8.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -317,7 +317,7 @@
 |修改、删除|按钮||||功能详见<5.2.2修改角色><5.2.3删除角色>|
 |检索|单行输入框||可输入中英文，20字符||1.输入关键词后Enter或点击右侧“放大镜”图标实现检索操作；2.列表右上方单行输入框中输入角色名称关键字进行模糊检索；3.为空时检索，不执行检索操、无符合条件的结果时，提示“无符合条件结果！”（如下图）；|
 
-![无符合条件结果]()
+![无符合条件结果](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%A7%92%E8%89%B2%E7%AE%A1%E7%90%86/%E6%A3%80%E7%B4%A2%E6%97%A0%E7%BB%93%E6%9E%9C.png)
 
 ### 5.3 账号管理
 * 创建并维护登录平台的账号信息；
