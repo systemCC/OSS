@@ -22,7 +22,7 @@
 ## 2 首页
 
 ## 3 连接管理
-![设备接入](https://github.com/systemcc/IMG/blob/master/%E8%AE%BE%E5%A4%87%E6%8E%A5%E5%85%A5.png)
+![设备接入](https://github.com/systemcc/oss/blob/master/IMG/%E8%AE%BE%E5%A4%87%E6%8E%A5%E5%85%A5.png)
 ### 3.1 企业应用管理
 * 运营商发展的企业客户，进入设备接入前需添加相应的企业和应用，用于企业应用管理和维护。
 * 默认显示“企业”标签，企业与应用管理可分别点击相应标签进行切换。
