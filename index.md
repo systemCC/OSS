@@ -627,10 +627,10 @@
 * 用于终端设备的申请与管理；
 * 路径：连接管理>终端管理。
 
-![终端管理]()
+![终端管理](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86.png)
 #### 3.5.1 终端申请
 
-![终端申请-初始]()
+![终端申请-初始](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86-%E5%88%9D%E5%A7%8B.png)
 * 在无任何终端连接时，初次使用，显示如上图“新增终端申请引导”页面；
 * 点击引导页面的“立即接入终端”，即可进入新增终端申请页面。
 
@@ -639,7 +639,7 @@
 * 入口1：通过引导页面，点击“立即接入终端”进入新增终端申请页面；
 * 入口2：点击终端管理页面的“新增终端申请”按钮，进入新增终端申请页面。
 
-![新增终端申请]()
+![新增终端申请](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/%E6%96%B0%E5%A2%9E%E7%BB%88%E7%AB%AF%E7%94%B3%E8%AF%B7.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -653,7 +653,7 @@
 * OTAA激活方式，通过选择设备信息、类型和数量，生成每个终端设备的AppEUI、DevEUI、AppKey、Class四个字段，可导出excel；
 * ABP激活方式，通过选择设备信息，生成文件为Excel格式，共AppEUI、DevEUI、DevAddr、AppSKey、NwkSKey、Class六个字段
 
-![终端-批量申请]()
+![终端-批量申请](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/%E7%BB%88%E7%AB%AF-%E6%89%B9%E9%87%8F%E7%94%B3%E8%AF%B7.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -661,7 +661,7 @@
 |数量|单行输入框||必填项，5字符，数字|失去焦点和生成时为空，提示“不能为空”|1.批量申请，需填写本次申请的终端设备个数，即可生成对应条数数据；2.仅限批量申请时填写，批量导入方式无需填写数量。|
 |类型|单选按钮组||必选项|失去焦点和生成时为空，提示“不能为空”|选择终端传输类型，包含：A/B和C类型。|
 
-![OTAA]()*OTAA激活方式表格*
+![OTAA](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/OTAA%E5%88%97%E8%A1%A8.png)*OTAA激活方式表格*
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -690,7 +690,7 @@
 1.全部导入，包含三个字段：DevEUI、AppKey、Class；<br/>
 2.只导入DevEUI、Class，平台生成AppKey后，导出Excel供下载。<br/>
 
-![终端-批量导入]()
+![终端-批量导入](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/%E7%BB%88%E7%AB%AF-%E6%89%B9%E9%87%8F%E5%AF%BC%E5%85%A5.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -706,7 +706,7 @@
 * 提交后的终端申请管理，可在该模块进行查看；
 * 路径：连接管理>终端管理>终端申请管理。
 
-![终端申请管理]()
+![终端申请管理](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/%E7%BB%88%E7%AB%AF%E7%94%B3%E8%AF%B7%E7%AE%A1%E7%90%86.png)
 
 1、列表显示字段包含：所属企业、应用、申请人和申请时间以及终端总数；申请人和申请时间为新增终端申请管理点击提交按钮的人员和时间。<br/>
 2、点击“查看”按钮页面进入终端设备申请详情页。<br/>
@@ -714,12 +714,12 @@
 4、点击“删除”按钮，删除该申请表中的终端设备信息，已删除的终端信息，在该设备再次进行通讯的情况下则无法识别身份，因此无法进行数据传输；点击“取消”页面返回终端申请管理页面。<br/>
 5、路径：连接管理>终端管理>终端申请管理。
 
-![终端设备申请详情页]()
+![终端设备申请详情页](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/%E7%BB%88%E7%AB%AF%E8%AE%BE%E5%A4%87%E7%94%B3%E8%AF%B7%E8%AF%A6%E6%83%85%E9%A1%B5.png)
 
 #### 3.5.3 ID分配明细
 * 终端设备DevEUI、AppKey等设备码的分配明细。
 
-![ID分配明细]()
+![ID分配明细](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/ID%E7%94%B3%E8%AF%B7%E6%98%8E%E7%BB%86.png)
 
 ##### 3.5.3.1 检索条件
 
@@ -741,7 +741,7 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 
 #### 3.5.4 终端管理列表
 
-![终端管理列表]()
+![终端管理列表](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86%E5%88%97%E8%A1%A8.png)
 
 ##### 3.5.4.1 检索条件
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
@@ -766,11 +766,11 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 * 点击“返回”页面返回终端管理页面，返回按钮始终悬浮在屏幕的左下角。
 * 详情页右侧导航，点击对应的模块，页面直接定位对应信息位置，可直接置顶。
 
-![终端设备详情]()
+![终端设备详情](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/%E7%BB%88%E7%AB%AF%E8%AE%BE%E5%A4%87%E8%AF%A6%E6%83%85.png)
 
 > 位置信息
 
-![位置信息-详情]()
+![位置信息-详情](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/%E4%BD%8D%E7%BD%AE%E4%BF%A1%E6%81%AF-%E8%AF%A6%E6%83%85.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -812,9 +812,13 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 
 > 设备通用参数
 
+![设备通用参数-详情](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/%E8%AE%BE%E5%A4%87%E9%80%9A%E7%94%A8%E5%8F%82%E6%95%B0-%E8%AF%A6%E6%83%85.png)
+
 接受窗口1数据率偏移量，接收窗口2数据速率，接收窗口2频率，接收窗口打开延时1：单行输入框填写信息。
 
 > ADR配置
+
+![ADR配置-详情](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%BB%88%E7%AB%AF%E7%AE%A1%E7%90%86/ADR%E9%85%8D%E7%BD%AE-%E8%AF%A6%E6%83%85.png)
 
 1、是否开启ADR为是时，可修改DR值和发射功率；是否开始ADR为否时不可修改DR和发射功率；<br/>
 2、点击“编辑”可开启关闭ADR，开启后同时可修改DR和发射功率；<br/>
