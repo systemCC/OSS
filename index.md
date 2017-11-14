@@ -973,7 +973,7 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 2、点击提示“暂无计划，点击添加升级计划”中的添加，页面进入升级计划制定页面，可添加多个计划，点击“添加升级计划”按钮增加计划标签；
 3、必须在选择“更新时间”之后才可点击“添加设备”，如未选择时间时点击“添加设备”，上方红色横幅提示“无法添加设备，请先选择更新时间”；
 
-![升级计划制定]()*升级计划制定*
+![升级计划制定](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E5%9B%BA%E4%BB%B6OTA%E5%8D%87%E7%BA%A7/%E5%8D%87%E7%BA%A7%E8%AE%A1%E5%88%92%E5%88%B6%E5%AE%9A.png)*升级计划制定*
 
 4、点击“添加设备”弹出层打开设备添加页面，如下图：
 
@@ -1030,13 +1030,13 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 * 基站自身会对通讯信道进行调整，当网络传输信号质量异常或特殊情况下，需手动对部分基站进行信道调整；
 * 路径：连接管理>设备配置>信道配置。
 
-![信道配置管理]()
+![信道配置管理](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%AE%BE%E5%A4%87%E9%85%8D%E7%BD%AE/%E4%BF%A1%E9%81%93%E9%85%8D%E7%BD%AE-%E7%AE%A1%E7%90%86.png)
 
 ##### 3.7.1.1 新增信道配置
 * 点击“信道修改”按钮，页面跳转至信道修改页面；
 * 路径：连接管理>设备配置>信道配置>信道修改。
 
-![信道配置-新增]()
+![信道配置-新增](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%AE%BE%E5%A4%87%E9%85%8D%E7%BD%AE/%E4%BF%A1%E9%81%93%E9%85%8D%E7%BD%AE-%E6%96%B0%E5%A2%9E.png)
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
 |基站ID|多行输入框||必填项，最多可输入1000个基站ID|失去焦点和提交时为空，提示“不能为空”|1.填写多个基站ID，两个ID之间以“；”相隔；2.对多行输入框中的基站进行信道修改操作。|
@@ -1054,10 +1054,11 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 #### 3.7.2 ADR配置
 * ADR算法开启的终端设备，可修改其DR和发射功率，如未启用ADR则无法修改。
 
-![ADR配置]()
+![ADR配置](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%AE%BE%E5%A4%87%E9%85%8D%E7%BD%AE/ADR%E9%85%8D%E7%BD%AE.png)
+
 ##### 3.7.2.1 新增ADR修改
 * 点击“ADR配置”按钮，页面跳转至新增ADR配置修改页面，如下图
-![ADR配置-新增]()
+![ADR配置-新增](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%AE%BE%E5%A4%87%E9%85%8D%E7%BD%AE/ADR%E9%85%8D%E7%BD%AE-%E6%96%B0%E5%A2%9E.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -1074,7 +1075,7 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 |提交|按钮|页面跳转会ADR配置页面||||提交修改操作立即执行，修改多行输入框中的终端设备的DR和TXPower值。|
 |取消|按钮|页面返回ADR配置页面||||取消操作，不执行修改。|
 
-![ADR配置-添加终端设备]()
+![ADR配置-添加终端设备](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%AE%BE%E5%A4%87%E9%85%8D%E7%BD%AE/ADR%E9%85%8D%E7%BD%AE-%E6%96%B0%E5%A2%9E-%E6%B7%BB%E5%8A%A0%E8%AE%BE%E5%A4%87.png)
 
 ##### 3.7.2.2 ADR配置修改管理
 * 以单个终端设备为单位记录修改ADR配置的信息，记录内容包含：DevEUI、DR值、发射功率、修改人和修改时间以及备注信息；
@@ -1084,7 +1085,9 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 * 终端设备通过基站上传的数据包信息管理。
 
 ![数据包管理](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E6%95%B0%E6%8D%AE%E5%8C%85%E7%AE%A1%E7%90%86.png)
+
 #### 3.8.1 检索条件
+
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
 |终端ID|单行输入框||16字符，英文数字||填写终端设备DevEUI检索该设备上传的数据包。|
@@ -1368,10 +1371,10 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 
 ### 5.4 系统日志
 #### 5.4.1 操作日志
-* 管理员在平台上的操作记录；
+* 管理员在平台上的所有操作记录；
 * 路径：系统管理>操作日志。
 
-![操作日志]()
+![操作日志](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/%E6%93%8D%E4%BD%9C%E6%97%A5%E5%BF%97.png)
 
 > 检索条件
 
@@ -1391,7 +1394,7 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 * 路径：系统管理>设备接入日志。
 
 ##### 5.4.2.1 基站日志
-![基站日志]()
+![基站日志](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/%E8%AE%BE%E5%A4%87%E6%8E%A5%E5%85%A5%E6%97%A5%E5%BF%97-%E5%9F%BA%E7%AB%99.png)
 
 > 检索条件
 
@@ -1408,7 +1411,7 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 * 检索结果表格，字段包含：基站ID、传输时间、指令类型和指令明细。
 
 ##### 5.4.2.2 终端日志
-![终端日志]()
+![终端日志](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/%E8%AE%BE%E5%A4%87%E6%8E%A5%E5%85%A5%E6%97%A5%E5%BF%97-%E7%BB%88%E7%AB%AF.png)
 
 > 检索条件
 
@@ -1433,7 +1436,7 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 * 单行输入框中为时，不执行检索操作；
 * 单行输入框中可输入中英文、数字和符号，50字符。
 
-![检索功能]()
+![检索功能](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E5%85%AC%E5%85%B1%E5%86%85%E5%AE%B9%E5%8A%9F%E8%83%BD%E6%8F%8F%E8%BF%B0/%E6%A3%80%E7%B4%A2.png)
 
 #### 8.1.2 检索结果
 * 当检索结果为无符合关键词的情况下，如下图显示，显示对应的表格表头以及提示文字。
