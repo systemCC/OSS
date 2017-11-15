@@ -7,6 +7,15 @@
   text-align:center;
   line-height:normal;
 }
+.shape {
+  font-family:'MicrosoftYaHei', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
 ._图片 {
 }
 .placeholder {
