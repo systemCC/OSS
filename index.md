@@ -1111,7 +1111,7 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 #### 4.1.1 写信
 * 点击左上角“写信”按钮，新页面打开新增通知页面，如下图；
 
-![通知中心-写信]()
+![通知中心-写信](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%BF%90%E7%BB%B4%E7%AE%A1%E7%90%86/%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83-%E5%86%99%E4%BF%A1.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|---------|
@@ -1128,7 +1128,7 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 * 点击通知所在行可打开通知详情；
 * 可通过发件人或标题进行收件箱信息检索。
 
-![通知中心-收件箱]()
+![通知中心-收件箱](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%BF%90%E7%BB%B4%E7%AE%A1%E7%90%86/%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83-%E6%94%B6%E4%BB%B6%E7%AE%B1.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|---------|
@@ -1141,24 +1141,24 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 * 标签选择发件箱，显示发件箱列表，显示当前登陆人已发送的所有通知；
 * 删除和检索功能与收件箱相同，点击通知所在行区域页面跳转至通知详情页。
 
-![通知中心-发件箱]()
+![通知中心-发件箱](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%BF%90%E7%BB%B4%E7%AE%A1%E7%90%86/%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83-%E5%8F%91%E4%BB%B6%E7%AE%B1.png)
 
 #### 4.1.4 通知详情
 * 显示已收到和已发送的通知详情，包含收件人、标题和通知内容。
 
-![通知中心-通知详情]()
+![通知中心-通知详情](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%BF%90%E7%BB%B4%E7%AE%A1%E7%90%86/%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83-%E9%80%9A%E7%9F%A5%E8%AF%A6%E6%83%85.png)
 
 ### 4.2 报警管理
 #### 4.2.1 报警事件管理
 * 报警事件的设定，当事件发生后，主动触发并通知相关人员；
 * 路径：运维管理>报警管理>报警事件管理。
 
-![报警事件管理]()
+![报警事件管理](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%BF%90%E7%BB%B4%E7%AE%A1%E7%90%86/%E6%8A%A5%E8%AD%A6%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.png)
 
 ##### 4.2.1.1 新增报警事件
 * 路径：运维管理>报警事件管理>新增事件管理；
 
-![新增报警事件]()
+![新增报警事件](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%BF%90%E7%BB%B4%E7%AE%A1%E7%90%86/%E6%96%B0%E5%A2%9E%E6%8A%A5%E8%AD%A6%E4%BA%8B%E4%BB%B6.png)
 
 |元素名称|类型|跳转关系|校验规则|报错提示|元素样式和说明|
 |-------|----|-------|-------|--------|-------------|
@@ -1175,9 +1175,9 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 |提交|按钮|页面返回报警事件管理页面|||提交报警事件，立即生效。|
 |取消|按钮|页面返回报警事件管理页面|||取消操作，不执行提交报警事件。|
 
-![新增报警-联络人选择]()*联络人选择*
+![新增报警-联络人选择](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%BF%90%E7%BB%B4%E7%AE%A1%E7%90%86/%E6%96%B0%E5%A2%9E%E6%8A%A5%E8%AD%A6-%E8%81%94%E7%BB%9C%E4%BA%BA%E9%80%89%E6%8B%A9.png)*联络人选择*
 
-![新增报警-已选择联络人]()*已选择联络人*
+![新增报警-已选择联络人](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%BF%90%E7%BB%B4%E7%AE%A1%E7%90%86/%E6%96%B0%E5%A2%9E%E6%8A%A5%E8%AD%A6-%E5%B7%B2%E9%80%89%E6%8B%A9%E8%81%94%E7%BB%9C%E4%BA%BA.png)*已选择联络人*
 
 > 事件类型说明
 
@@ -1205,12 +1205,12 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 #### 4.2.2 事件中心
 * 事件发生后，信息推送给指定人员，列表显示信息，并需由相关人员进行处理并回复；
 
-![事件中心]()
+![事件中心](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%BF%90%E7%BB%B4%E7%AE%A1%E7%90%86/%E4%BA%8B%E4%BB%B6%E4%B8%AD%E5%BF%83.png)
 
 ##### 4.2.2.1 事件处理
 * 点击“事件列表”对应的“处理”按钮，页面跳转至事件详情页面，如下图，进行相关处理。
 
-![事件详情处理]()
+![事件详情处理](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%BF%90%E7%BB%B4%E7%AE%A1%E7%90%86/%E4%BA%8B%E4%BB%B6%E8%AF%A6%E6%83%85%E5%A4%84%E7%90%86.png)
 
 > 设备异常类
 
@@ -1257,7 +1257,7 @@ ABP列表字段：序号、DevEUI、AppKey、class、设备短地址、应用会
 * 复选框：状态为待处理和处理中的事件信息前会显示复选框，表头的复选框为全选当前所有检索结果的功能。
 * 批量处理：复选框选择的事件消息，至少选择一个的情况下点击“批量处理”，弹出层显示批量处理页面，如下图，功能同4.2.2.1事件处理；提交后被复选框选中的所有事件状态和处理进度均统一更新。
 
-![事件处理-批量]()
+![事件处理-批量](https://raw.githubusercontent.com/systemcc/oss/master/IMG/%E8%BF%90%E7%BB%B4%E7%AE%A1%E7%90%86/%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86-%E6%89%B9%E9%87%8F.png)
 
 ##### 4.2.2.3 事件查看
 * 点击状态为已完成的事件的“查看”，如下图，点击取消按钮，页面返回事件管理页面。
